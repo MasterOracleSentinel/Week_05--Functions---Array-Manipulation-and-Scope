@@ -20,6 +20,8 @@
 //Write a function called splitElements that would convert a given string into an array of words.
 
 
+// SLICE, SPLICE, and SPLIT Manuevers
+
 
 // Step 1: use slice to find elements in an array
 function sliceElements(givenArray) {
@@ -42,8 +44,8 @@ function spliceElements(givenArray, element1, element2) {
 // Step 3: use splice to find elements in an array
 function splitElements(givenString) {
   //TODO: convert givenString into an array of words
-  const spliffs = str.split(' ');
-  return spliffs;
+  const splits = str.split(' ');
+  return splits;
 }
 
 //Uncomment these line to see results for step 1
