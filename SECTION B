@@ -43,38 +43,5 @@ Submission Instructions:
 
 Word count: 150-300
 Did you find solutions to some of the challenges your peers experienced? Tell them!
-This topic was locked Jun 8, 2022 at 12:29pm.
-Search entries or author
-Search entries or author
- Filter replies by unread      
-Mark Dohle
-Mark Dohle
-Jun 4, 2022Local: Jun 4, 2022 at 6:35pm<br>Course: Jun 4, 2022 at 10:35pm
-I spent a lot of time on this because I want to be proficient at manipulating large amounts of data. 
-I probably spent 12 hours and I had all sorts(no pun intended) of problems. In the end I succeeded in completing the
-Nextech assignment without copying from the solution. I could not have done it without the JavaScript Tudor Links to
-an external site. and w3 "Try Yourself" codes. These are awesome tools.
 
-Challenges
-
-Terminal and saving the JSON file - I had to re-watch the week one videos to save the figure this out.
-.sort function Links to an external site.for numbers
-I searched google find an example of a sorting function. I copied the into JavaScript Tudor Links to an external site. 
-and used it with a small 2 dimensional array until I was confident with how it worked.
-.splice method for arrays
-After the array was sorted, I knew the array was rearranged from smallest salary to largest. Now I had to figure 
-how to .splice out all the elements >= 100,000 limit. I use the JavaScript Tudor to build my loop, which ended up 
-being a loop with a conditional statement that would return the array dataSet.splice(i,dataSet.length). All elements
-in the new array were greater than or equal to my limit. 
-While reading about the .slice method of manipulating arrays, I noticed that .splice(-5) would make a new array 
-composed of  the last 5 elements in a given array. Starting with a sorted dataSet, I applied dataSet.sort(-5) to create 
-new array which contained the top 5.
-higherThan function - After a lot of building in JavaScript Tudor, I began to see some relationships and slowly started to simplify my instructions until I could put it all together in a universal function - higherThan(limit,dataSet,column)
-Inputs
-limit is the element numerical value at which to start the splice
-dataSet is the array that needs to be sorted
-column is the column used to sort the data. In our case, it was column 11 for salary
-Outputs
-Array of all elements greater than the limit.
-renderPosts() - I used my new higherThan function as the array input for the renderPosts() function. It did not work right away, so I re-built the whole thing in JavaScript Tudor using console.log to see output as the program went through the functions and loops.
-"Injecting html" - I still don't understand this concept at all. I just did trial and error until the list of salary showed up as expected.
+(3)
